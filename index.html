@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Test archi — données bureaux de vote</title>
+<style>
+  body { font-family: system-ui, sans-serif; margin: 1.5rem; }
+  table { border-collapse: collapse; font-size: 0.8rem; }
+  th, td { border: 1px solid #ccc; padding: 2px 6px; text-align: right; white-space: nowrap; }
+  th { background: #eee; position: sticky; top: 0; }
+  td:first-child, th:first-child { text-align: left; }
+  #etat { font-family: monospace; margin-bottom: 1rem; }
+</style>
+</head>
+<body>
+<h1>Bureaux de vote — département 01</h1>
+<div id="etat">chargement…</div>
+<table id="tableau"></table>
+
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
